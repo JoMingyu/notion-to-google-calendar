@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "notion-to-google-calendar"
+version = "0.1.0"
+description = ""
+authors = ["JoMingyu"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+notion-client = "^1.0.0"
+requests = "^2.28.1"
+arrow = "^1.2.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
